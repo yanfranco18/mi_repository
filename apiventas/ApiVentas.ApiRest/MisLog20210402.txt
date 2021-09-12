@@ -1,0 +1,85 @@
+2021-04-02 21:05:58.200 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-02 21:05:59.657 -05:00 [INF] Now listening on: http://localhost:5000
+2021-04-02 21:05:59.659 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-02 21:05:59.661 -05:00 [INF] Hosting environment: Development
+2021-04-02 21:05:59.662 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion04\Ejercicios\ApiVentasVFinal\ApiVentas.ApiRest
+2021-04-02 21:06:01.261 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-04-02 21:06:01.471 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 213.1460ms
+2021-04-02 21:06:01.688 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-04-02 21:06:01.854 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.5389ms
+2021-04-02 21:43:12.571 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag - -
+2021-04-02 21:43:13.333 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-04-02 21:43:13.341 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-04-02 21:43:13.344 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag - - - 401 0 - 776.0723ms
+2021-04-02 22:35:55.989 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-02 22:35:56.359 -05:00 [INF] Now listening on: http://localhost:5000
+2021-04-02 22:35:56.362 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-02 22:35:56.364 -05:00 [INF] Hosting environment: Development
+2021-04-02 22:35:56.366 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion04\Ejercicios\ApiVentasVFinal\ApiVentas.ApiRest
+2021-04-02 22:35:57.974 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-04-02 22:35:58.113 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 142.4598ms
+2021-04-02 22:35:58.308 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-04-02 22:35:58.434 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.9698ms
+2021-04-02 22:36:04.653 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/Listar - -
+2021-04-02 22:36:04.883 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 22:36:04.957 -05:00 [INF] Route matched with {action = "Listar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Listar() on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-04-02 22:36:08.511 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-02 22:36:09.199 -05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+FROM [DBO].[Product] AS [p]
+2021-04-02 22:36:09.364 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.ProductoDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-02 22:36:09.425 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest) in 4451.4144ms
+2021-04-02 22:36:09.428 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 22:36:09.437 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/Listar - - - 200 - application/json;+charset=utf-8 4783.5561ms
+2021-04-02 23:53:25.885 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/articulo/list - -
+2021-04-02 23:53:25.957 -05:00 [INF] CORS policy execution successful.
+2021-04-02 23:53:26.022 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/articulo/list - - - 404 0 - 142.2825ms
+2021-04-02 23:53:56.819 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/articulo/listar - -
+2021-04-02 23:53:56.823 -05:00 [INF] CORS policy execution successful.
+2021-04-02 23:53:56.834 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:53:56.840 -05:00 [INF] Route matched with {action = "Listar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Listar() on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-04-02 23:53:56.901 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-02 23:53:56.915 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+FROM [DBO].[Product] AS [p]
+2021-04-02 23:53:56.926 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.ProductoDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-02 23:53:56.932 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest) in 84.0954ms
+2021-04-02 23:53:56.936 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:53:56.939 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/articulo/listar - - - 200 - application/json;+charset=utf-8 120.1683ms
+2021-04-02 23:54:30.484 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/articulo/listar - -
+2021-04-02 23:54:30.487 -05:00 [INF] CORS policy execution successful.
+2021-04-02 23:54:30.493 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:54:30.499 -05:00 [INF] Route matched with {action = "Listar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Listar() on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-04-02 23:54:30.528 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-02 23:54:30.536 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+FROM [DBO].[Product] AS [p]
+2021-04-02 23:54:30.544 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.ProductoDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-02 23:54:30.549 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest) in 41.6405ms
+2021-04-02 23:54:30.556 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:54:30.561 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/articulo/listar - - - 200 - application/json;+charset=utf-8 76.7189ms
+2021-04-02 23:55:25.283 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/articulo/listar - -
+2021-04-02 23:55:25.288 -05:00 [INF] CORS policy execution successful.
+2021-04-02 23:55:25.290 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:55:25.294 -05:00 [INF] Route matched with {action = "Listar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Listar() on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-04-02 23:55:25.299 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-02 23:55:25.314 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+FROM [DBO].[Product] AS [p]
+2021-04-02 23:55:25.328 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.ProductoDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-02 23:55:25.336 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest) in 37.4137ms
+2021-04-02 23:55:25.340 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:55:25.344 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/articulo/listar - - - 200 - application/json;+charset=utf-8 66.4778ms
+2021-04-02 23:55:30.530 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/articulo/listar - -
+2021-04-02 23:55:30.532 -05:00 [INF] CORS policy execution successful.
+2021-04-02 23:55:30.535 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:55:30.539 -05:00 [INF] Route matched with {action = "Listar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Listar() on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-04-02 23:55:30.545 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-04-02 23:55:30.556 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+FROM [DBO].[Product] AS [p]
+2021-04-02 23:55:30.563 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.ProductoDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-02 23:55:30.571 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest) in 26.3456ms
+2021-04-02 23:55:30.575 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Listar (ApiVentas.ApiRest)'
+2021-04-02 23:55:30.580 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/articulo/listar - - - 200 - application/json;+charset=utf-8 50.2967ms

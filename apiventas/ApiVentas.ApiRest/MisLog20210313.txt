@@ -1,0 +1,453 @@
+2021-03-13 11:54:14.976 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 11:54:17.451 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 11:54:17.404 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 11:54:18.686 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 11:54:18.689 -05:00 [INF] Hosting environment: Development
+2021-03-13 11:54:18.692 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 11:54:18.751 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 1353.9895ms
+2021-03-13 11:54:18.877 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1425.1714ms
+2021-03-13 11:54:18.958 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 11:54:19.011 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 11:54:19.015 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 57.9280ms
+2021-03-13 11:54:19.135 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 11:54:19.372 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.5816ms
+2021-03-13 11:56:12.023 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 11:56:12.089 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 11:56:12.091 -05:00 [INF] Hosting environment: Development
+2021-03-13 11:56:12.093 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 11:56:14.024 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 11:56:14.031 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 11:56:14.067 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 46.1945ms
+2021-03-13 11:56:14.175 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 144.1713ms
+2021-03-13 11:56:14.890 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - -
+2021-03-13 11:56:14.920 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-13 11:56:14.922 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 0 628 image/png 31.6556ms
+2021-03-13 11:56:14.959 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 11:56:15.167 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 207.8441ms
+2021-03-13 11:56:32.996 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Articulo/Grabar application/json 38
+2021-03-13 11:56:33.049 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Grabar (ApiVentas.ApiRest)'
+2021-03-13 11:56:33.089 -05:00 [INF] Route matched with {action = "Grabar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grabar(ApiVentas.ApiRest.Managers.DTO.ProductoInsertParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 11:56:36.593 -05:00 [ERR] Esta llegando data errada
+2021-03-13 11:57:36.961 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 11:57:36.974 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 11:57:34.615 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 11:57:38.341 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 11:57:38.342 -05:00 [INF] Hosting environment: Development
+2021-03-13 11:57:38.344 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 11:57:38.406 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 1451.6065ms
+2021-03-13 11:57:38.538 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1565.1020ms
+2021-03-13 11:57:38.598 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 11:57:38.633 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 11:57:38.640 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 41.5087ms
+2021-03-13 11:57:38.731 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - -
+2021-03-13 11:57:38.733 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-13 11:57:38.735 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 0 628 image/png 9.3590ms
+2021-03-13 11:57:38.770 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 11:57:38.917 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.6553ms
+2021-03-13 11:57:48.728 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Articulo/Grabar application/json 29
+2021-03-13 11:57:48.785 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.Grabar (ApiVentas.ApiRest)'
+2021-03-13 11:57:48.839 -05:00 [INF] Route matched with {action = "Grabar", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Grabar(ApiVentas.ApiRest.Managers.DTO.ProductoInsertParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 11:57:51.137 -05:00 [ERR] Esta llegando data errada
+2021-03-13 12:36:23.128 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 12:36:23.191 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 12:36:23.193 -05:00 [INF] Hosting environment: Development
+2021-03-13 12:36:23.195 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 12:36:25.412 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 12:36:25.457 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 49.3401ms
+2021-03-13 12:36:25.478 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 12:36:25.618 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 139.6721ms
+2021-03-13 12:36:26.273 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 12:36:26.311 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 12:36:26.313 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 39.4034ms
+2021-03-13 12:36:26.426 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 12:36:26.644 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.5941ms
+2021-03-13 12:36:56.950 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=10 - 0
+2021-03-13 12:36:57.022 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:36:57.086 -05:00 [INF] Route matched with {action = "SubirImagen", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubirImagen(ApiVentas.ApiRest.Managers.DTO.ProductoImagenParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 12:37:27.367 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest) in 30266.5939ms
+2021-03-13 12:37:27.381 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:37:27.390 -05:00 [ERR] Connection id "0HM768Q2OOPMJ", Request id "0HM768Q2OOPMJ:00000003": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.ProductoOpManager.UploadImage(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\ProductoOpManager.cs:line 58
+   at ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\ArticuloController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-03-13 12:37:27.631 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=10 - 0 - 500 0 - 30681.3392ms
+2021-03-13 12:37:59.408 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 12:37:59.458 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 12:37:59.461 -05:00 [INF] Hosting environment: Development
+2021-03-13 12:37:59.463 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 12:38:07.628 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 12:38:07.825 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 200.2230ms
+2021-03-13 12:38:07.921 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 12:38:07.955 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 12:38:07.959 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 37.5721ms
+2021-03-13 12:38:08.225 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 12:38:08.389 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.6283ms
+2021-03-13 12:38:19.197 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=17 - 0
+2021-03-13 12:38:19.240 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:38:19.299 -05:00 [INF] Route matched with {action = "SubirImagen", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubirImagen(ApiVentas.ApiRest.Managers.DTO.ProductoImagenParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 12:38:32.204 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest) in 12887.1056ms
+2021-03-13 12:38:32.214 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:38:32.230 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.ProductoOpManager.UploadImage(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\ProductoOpManager.cs:line 58
+   at ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\ArticuloController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 12:38:51.113 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=17 - 0 - 500 - application/json 31915.6679ms
+2021-03-13 12:50:47.014 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 12:50:47.072 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 12:50:47.074 -05:00 [INF] Hosting environment: Development
+2021-03-13 12:50:47.075 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 12:50:49.272 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 12:50:49.318 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 51.5306ms
+2021-03-13 12:50:49.743 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 12:50:49.843 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 99.8820ms
+2021-03-13 12:50:49.932 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 12:50:50.009 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 12:50:50.013 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 80.2139ms
+2021-03-13 12:50:50.068 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - -
+2021-03-13 12:50:50.071 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-13 12:50:50.073 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 0 628 image/png 4.8646ms
+2021-03-13 12:50:50.109 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 12:50:50.295 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.2415ms
+2021-03-13 12:51:03.158 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=17 - 0
+2021-03-13 12:51:03.208 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:51:03.253 -05:00 [INF] Route matched with {action = "SubirImagen", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubirImagen(ApiVentas.ApiRest.Managers.DTO.ProductoImagenParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 12:51:10.173 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest) in 6905.2393ms
+2021-03-13 12:51:10.186 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:51:10.193 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.ProductoOpManager.UploadImage(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\ProductoOpManager.cs:line 58
+   at ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\ArticuloController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 12:51:13.315 -05:00 [ERR] Error inesperado: System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.ProductoOpManager.UploadImage(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\ProductoOpManager.cs:line 58
+   at ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\ArticuloController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 12:51:13.328 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=17 - 0 - 500 - application/json 10169.4750ms
+2021-03-13 12:58:06.434 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 12:58:06.506 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 12:58:06.517 -05:00 [INF] Hosting environment: Development
+2021-03-13 12:58:06.524 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 12:58:08.310 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 12:58:08.317 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 12:58:08.360 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 58.1103ms
+2021-03-13 12:58:08.473 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 156.1123ms
+2021-03-13 12:58:09.128 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 12:58:09.155 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 12:58:09.159 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 31.3531ms
+2021-03-13 12:58:09.263 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 12:58:09.498 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.8544ms
+2021-03-13 12:58:21.129 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=7 - 0
+2021-03-13 12:58:21.171 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:58:21.214 -05:00 [INF] Route matched with {action = "SubirImagen", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubirImagen(ApiVentas.ApiRest.Managers.DTO.ProductoImagenParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 12:58:25.350 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest) in 4125.0947ms
+2021-03-13 12:58:25.359 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen (ApiVentas.ApiRest)'
+2021-03-13 12:58:25.378 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.ProductoOpManager.UploadImage(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\ProductoOpManager.cs:line 58
+   at ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\ArticuloController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 12:58:36.353 -05:00 [ERR] Error inesperado: 051ba797-9a84-4d9a-8520-66d268accecc - System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.ProductoOpManager.UploadImage(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\ProductoOpManager.cs:line 58
+   at ApiVentas.ApiRest.Controllers.ArticuloController.SubirImagen(ProductoImagenParamDTO param) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\ArticuloController.cs:line 63
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 12:58:41.115 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Articulo/SubirImagen?Codigo=7 - 0 - 500 - application/json 19985.7714ms
+2021-03-13 13:37:11.001 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 13:37:11.051 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 13:37:11.052 -05:00 [INF] Hosting environment: Development
+2021-03-13 13:37:11.053 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 13:37:13.340 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 13:37:13.377 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 40.7926ms
+2021-03-13 13:37:14.004 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 13:37:14.106 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 101.7401ms
+2021-03-13 13:37:14.215 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 13:37:14.281 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 13:37:14.297 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 81.8242ms
+2021-03-13 13:37:14.372 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 13:37:14.538 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.9940ms
+2021-03-13 13:37:38.199 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Auth application/json 38
+2021-03-13 13:37:38.266 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 13:37:38.306 -05:00 [INF] Route matched with {action = "Valida", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Valida(ApiVentas.ApiRest.Managers.DTO.LoginRequestDTO) on controller ApiVentas.ApiRest.Controllers.AuthController (ApiVentas.ApiRest).
+2021-03-13 13:37:56.092 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2021-03-13 13:37:56.103 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest) in 17786.2105ms
+2021-03-13 13:37:56.110 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 13:37:56.112 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Auth application/json 38 - 400 - text/plain;+charset=utf-8 17913.3710ms
+2021-03-13 13:38:11.286 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Auth application/json 40
+2021-03-13 13:38:11.293 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 13:38:11.297 -05:00 [INF] Route matched with {action = "Valida", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Valida(ApiVentas.ApiRest.Managers.DTO.LoginRequestDTO) on controller ApiVentas.ApiRest.Controllers.AuthController (ApiVentas.ApiRest).
+2021-03-13 13:38:39.504 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest) in 28202.0513ms
+2021-03-13 13:38:39.517 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 13:38:39.538 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ApiVentas.ApiRest.Managers.OpManager.SeguridadOpManager.Autentica(LoginRequestDTO request) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Managers\OpManager\SeguridadOpManager.cs:line 50
+   at ApiVentas.ApiRest.Controllers.AuthController.Valida(LoginRequestDTO request) in D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest\Controllers\AuthController.cs:line 25
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 13:39:18.178 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 13:39:18.323 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 13:39:20.103 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 13:39:20.103 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 13:39:28.354 -05:00 [INF] Hosting environment: Development
+2021-03-13 13:39:28.363 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 13:39:28.395 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 8298.1354ms
+2021-03-13 13:39:28.511 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 8415.4845ms
+2021-03-13 13:39:28.577 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 13:39:28.618 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 13:39:28.620 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 43.4078ms
+2021-03-13 13:39:28.731 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 13:39:28.868 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.7394ms
+2021-03-13 13:39:43.000 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Auth application/json 40
+2021-03-13 13:39:43.043 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 13:39:43.082 -05:00 [INF] Route matched with {action = "Valida", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Valida(ApiVentas.ApiRest.Managers.DTO.LoginRequestDTO) on controller ApiVentas.ApiRest.Controllers.AuthController (ApiVentas.ApiRest).
+2021-03-13 13:39:49.262 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiVentas.ApiRest.Managers.DTO.LoginResponseDTO'.
+2021-03-13 13:39:49.286 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest) in 6193.7242ms
+2021-03-13 13:39:49.293 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 13:39:49.296 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Auth application/json 40 - 200 - application/json;+charset=utf-8 6296.1793ms
+2021-03-13 13:54:03.836 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 13:54:03.900 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 13:54:03.902 -05:00 [INF] Hosting environment: Development
+2021-03-13 13:54:03.904 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 13:54:07.019 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 13:54:07.181 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 164.6984ms
+2021-03-13 13:54:07.345 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 13:54:07.406 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 13:54:07.411 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 63.6875ms
+2021-03-13 13:54:07.455 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - -
+2021-03-13 13:54:07.507 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 13:54:07.677 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.4601ms
+2021-03-13 13:54:08.420 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-13 13:54:08.423 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 0 628 image/png 967.4762ms
+2021-03-13 13:54:49.539 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 13:54:49.616 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-03-13 13:54:49.636 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 13:54:56.022 -05:00 [ERR] Error inesperado: b4a7c6d1-6680-4b8a-addf-ff513f228d0d - System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-03-13 13:54:56.199 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 500 - application/json 6660.1966ms
+2021-03-13 14:01:59.668 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-13 14:02:00.552 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-13 14:02:00.554 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-13 14:02:00.555 -05:00 [INF] Hosting environment: Development
+2021-03-13 14:02:00.557 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion03\EJercicios\ApiVentas\ApiVentas.ApiRest
+2021-03-13 14:02:02.995 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-03-13 14:02:03.045 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 0 - - 52.8439ms
+2021-03-13 14:02:03.059 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-13 14:02:03.187 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 128.7519ms
+2021-03-13 14:02:03.857 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-03-13 14:02:03.896 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-13 14:02:03.899 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 0 142933 text/css 41.9727ms
+2021-03-13 14:02:04.036 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-13 14:02:04.231 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 195.2236ms
+2021-03-13 14:02:20.185 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 14:02:20.668 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-03-13 14:02:20.675 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-03-13 14:02:20.677 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 401 0 - 492.6634ms
+2021-03-13 14:03:48.060 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 14:03:48.070 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-03-13 14:03:48.072 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-03-13 14:03:48.073 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 401 0 - 13.3263ms
+2021-03-13 14:04:45.899 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Auth application/json 51
+2021-03-13 14:04:45.907 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 14:04:45.954 -05:00 [INF] Route matched with {action = "Valida", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Valida(ApiVentas.ApiRest.Managers.DTO.LoginRequestDTO) on controller ApiVentas.ApiRest.Controllers.AuthController (ApiVentas.ApiRest).
+2021-03-13 14:04:48.427 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2021-03-13 14:04:48.444 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest) in 2468.9524ms
+2021-03-13 14:04:48.454 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 14:04:48.457 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Auth application/json 51 - 400 - text/plain;+charset=utf-8 2558.5617ms
+2021-03-13 14:04:55.604 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Auth application/json 52
+2021-03-13 14:04:55.607 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 14:04:55.651 -05:00 [INF] Route matched with {action = "Valida", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Valida(ApiVentas.ApiRest.Managers.DTO.LoginRequestDTO) on controller ApiVentas.ApiRest.Controllers.AuthController (ApiVentas.ApiRest).
+2021-03-13 14:04:59.406 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiVentas.ApiRest.Managers.DTO.LoginResponseDTO'.
+2021-03-13 14:04:59.424 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest) in 3768.3655ms
+2021-03-13 14:04:59.427 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.AuthController.Valida (ApiVentas.ApiRest)'
+2021-03-13 14:04:59.431 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Auth application/json 52 - 200 - application/json;+charset=utf-8 3827.7607ms
+2021-03-13 14:05:13.702 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 14:05:13.708 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-03-13 14:05:13.714 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-03-13 14:05:13.719 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 401 0 - 16.3137ms
+2021-03-13 14:05:31.556 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 14:05:31.772 -05:00 [INF] Successfully validated the token.
+2021-03-13 14:05:31.775 -05:00 [INF] Authorization was successful.
+2021-03-13 14:05:31.776 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.ListarPag (ApiVentas.ApiRest)'
+2021-03-13 14:05:31.787 -05:00 [INF] Route matched with {action = "ListarPag", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarPag(ApiVentas.ApiRest.Managers.DTO.ProductoListaPaginadaParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 14:05:33.962 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-13 14:05:34.610 -05:00 [INF] Executed DbCommand (163ms) [Parameters=[@__ToUpper_0='?' (Size = 150) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [DBO].[Product] AS [p]
+WHERE (@__ToUpper_0 LIKE '') OR (CHARINDEX(@__ToUpper_0, UPPER([p].[Nombre])) > 0)
+2021-03-13 14:05:38.563 -05:00 [INF] Executed DbCommand (66ms) [Parameters=[@__ToUpper_0='?' (Size = 150) (DbType = AnsiString), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ProductId], [t].[Nombre], [t].[Precio], [p0].[IdArticuloImagen], [p0].[IdArticulo], [p0].[NombreArchivo], [p0].[NombreGenerado]
+FROM (
+    SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+    FROM [DBO].[Product] AS [p]
+    WHERE (@__ToUpper_0 LIKE '') OR (CHARINDEX(@__ToUpper_0, UPPER([p].[Nombre])) > 0)
+    ORDER BY [p].[ProductId]
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t]
+LEFT JOIN [DBO].[ProductImage] AS [p0] ON [t].[ProductId] = [p0].[IdArticulo]
+ORDER BY [t].[ProductId], [p0].[IdArticuloImagen]
+2021-03-13 14:05:38.630 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiVentas.ApiRest.Managers.DTO.ProductoListaPaginadaDTO'.
+2021-03-13 14:05:38.640 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.ListarPag (ApiVentas.ApiRest) in 6847.283ms
+2021-03-13 14:05:38.646 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.ListarPag (ApiVentas.ApiRest)'
+2021-03-13 14:05:38.659 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 200 - application/json;+charset=utf-8 7103.8534ms
+2021-03-13 14:06:07.037 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 14:06:07.056 -05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+ ---> Microsoft.IdentityModel.Json.JsonReaderException: Unexpected character encountered while parsing value: Ș. Path '', line 0, position 0.
+   at Microsoft.IdentityModel.Json.JsonTextReader.ParseValue()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadAndMoveToContent()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Microsoft.IdentityModel.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Microsoft.IdentityModel.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at System.IdentityModel.Tokens.Jwt.JsonExtensions.DeserializeJwtHeader(String jsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtHeader.Base64UrlDeserialize(String base64UrlEncodedJsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   --- End of inner exception stack trace ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-03-13 14:06:07.238 -05:00 [INF] Bearer was not authenticated. Failure message: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+2021-03-13 14:06:07.242 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-03-13 14:06:07.257 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-03-13 14:06:07.259 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 401 0 - 230.8730ms
+2021-03-13 14:06:23.882 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - -
+2021-03-13 14:06:23.886 -05:00 [INF] Successfully validated the token.
+2021-03-13 14:06:23.887 -05:00 [INF] Authorization was successful.
+2021-03-13 14:06:23.888 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.ListarPag (ApiVentas.ApiRest)'
+2021-03-13 14:06:23.890 -05:00 [INF] Route matched with {action = "ListarPag", controller = "Articulo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarPag(ApiVentas.ApiRest.Managers.DTO.ProductoListaPaginadaParamDTO) on controller ApiVentas.ApiRest.Controllers.ArticuloController (ApiVentas.ApiRest).
+2021-03-13 14:06:23.958 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-13 14:06:24.424 -05:00 [INF] Executed DbCommand (457ms) [Parameters=[@__ToUpper_0='?' (Size = 150) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [DBO].[Product] AS [p]
+WHERE (@__ToUpper_0 LIKE '') OR (CHARINDEX(@__ToUpper_0, UPPER([p].[Nombre])) > 0)
+2021-03-13 14:06:24.442 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ToUpper_0='?' (Size = 150) (DbType = AnsiString), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[ProductId], [t].[Nombre], [t].[Precio], [p0].[IdArticuloImagen], [p0].[IdArticulo], [p0].[NombreArchivo], [p0].[NombreGenerado]
+FROM (
+    SELECT [p].[ProductId], [p].[Nombre], [p].[Precio]
+    FROM [DBO].[Product] AS [p]
+    WHERE (@__ToUpper_0 LIKE '') OR (CHARINDEX(@__ToUpper_0, UPPER([p].[Nombre])) > 0)
+    ORDER BY [p].[ProductId]
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t]
+LEFT JOIN [DBO].[ProductImage] AS [p0] ON [t].[ProductId] = [p0].[IdArticulo]
+ORDER BY [t].[ProductId], [p0].[IdArticuloImagen]
+2021-03-13 14:06:24.457 -05:00 [INF] Executing OkObjectResult, writing value of type 'ApiVentas.ApiRest.Managers.DTO.ProductoListaPaginadaDTO'.
+2021-03-13 14:06:24.459 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.ArticuloController.ListarPag (ApiVentas.ApiRest) in 565.3253ms
+2021-03-13 14:06:24.462 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.ArticuloController.ListarPag (ApiVentas.ApiRest)'
+2021-03-13 14:06:24.464 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Articulo/ListarPag?Filtro=7&Order=codigo&NroPagina=0&RegPagina=10&TotalReg=0 - - - 200 - application/json;+charset=utf-8 581.5012ms

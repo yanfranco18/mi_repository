@@ -1,0 +1,229 @@
+2021-03-20 10:33:58.045 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-20 10:33:58.643 -05:00 [INF] Now listening on: http://localhost:5000
+2021-03-20 10:33:58.647 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-20 10:33:58.652 -05:00 [INF] Hosting environment: Development
+2021-03-20 10:33:58.656 -05:00 [INF] Content root path: D:\Cursos\Galaxy\Net5-Grupo01\Sesion04\Ejercicios\ApiVentasVFinal\ApiVentas.ApiRest
+2021-03-20 10:33:59.710 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-03-20 10:33:59.891 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 183.0476ms
+2021-03-20 10:34:00.163 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-03-20 10:34:00.373 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.2217ms
+2021-03-20 10:34:27.360 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:34:27.834 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:34:27.863 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:34:29.710 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:34:30.246 -05:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:34:30.427 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:34:30.462 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 2589.5887ms
+2021-03-20 10:34:30.466 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:34:30.475 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 3114.3269ms
+2021-03-20 10:34:42.324 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:34:42.334 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:34:42.337 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:34:42.339 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:34:42.408 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:34:42.430 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:34:42.439 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:34:42.448 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 104.1803ms
+2021-03-20 10:34:42.453 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:34:42.456 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 132.8964ms
+2021-03-20 10:37:38.181 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:37:38.209 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:37:38.214 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:37:38.216 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:37:38.241 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:37:38.281 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:37:38.286 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:37:38.292 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 65.8014ms
+2021-03-20 10:37:38.295 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:37:38.306 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 125.1185ms
+2021-03-20 10:38:07.332 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:38:07.334 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:38:07.336 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:38:07.338 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:38:07.343 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:38:07.347 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:38:07.353 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:38:07.359 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 17.4817ms
+2021-03-20 10:38:07.365 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:38:07.368 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 35.4866ms
+2021-03-20 10:38:10.497 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:38:10.500 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:38:10.503 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:38:10.505 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:38:10.511 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:38:10.535 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:38:10.545 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:38:10.556 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 46.4282ms
+2021-03-20 10:38:10.562 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:38:10.571 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 74.1694ms
+2021-03-20 10:40:17.771 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:40:17.774 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:40:17.778 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:40:17.780 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:40:17.791 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:40:17.799 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:40:17.813 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:40:17.826 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 36.5868ms
+2021-03-20 10:40:17.831 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:40:17.834 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 62.7660ms
+2021-03-20 10:40:34.348 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:40:34.350 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:40:34.352 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:40:34.354 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:40:34.371 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:40:34.380 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:40:34.391 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:40:34.432 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 61.6416ms
+2021-03-20 10:40:34.438 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:40:34.443 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 94.3829ms
+2021-03-20 10:41:06.827 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:41:06.831 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:41:06.835 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:41:06.838 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:41:06.845 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:41:06.876 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:41:06.885 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:41:06.890 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 45.0964ms
+2021-03-20 10:41:06.904 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:41:06.907 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 79.9094ms
+2021-03-20 10:52:26.811 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:52:26.814 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:52:26.817 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:52:26.820 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:52:26.829 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:52:26.875 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:52:26.892 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:52:26.897 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 69.2169ms
+2021-03-20 10:52:26.908 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:52:26.917 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 109.8224ms
+2021-03-20 10:55:53.924 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:55:53.941 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:55:53.944 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:55:53.948 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:55:53.957 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:55:53.981 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:55:53.992 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:55:53.998 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 43.1501ms
+2021-03-20 10:55:54.013 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:55:54.018 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 94.7877ms
+2021-03-20 10:56:47.396 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:56:47.405 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:56:47.406 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:56:47.410 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:56:47.433 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:56:47.441 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:56:47.451 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:56:47.454 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 21.32ms
+2021-03-20 10:56:47.467 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:56:47.471 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 75.7656ms
+2021-03-20 10:57:06.716 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:57:06.719 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:57:06.725 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:57:06.729 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:57:06.736 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:57:06.744 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:57:06.773 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:57:06.787 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 52.1841ms
+2021-03-20 10:57:06.795 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:57:06.802 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 85.5794ms
+2021-03-20 10:57:28.336 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 10:57:28.340 -05:00 [INF] CORS policy execution successful.
+2021-03-20 10:57:28.345 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:57:28.349 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 10:57:28.363 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 10:57:28.371 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 10:57:28.383 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 10:57:28.386 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 23.5227ms
+2021-03-20 10:57:28.391 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 10:57:28.395 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 59.1622ms
+2021-03-20 11:03:01.403 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 11:03:01.425 -05:00 [INF] CORS policy execution successful.
+2021-03-20 11:03:01.427 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:03:01.430 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 11:03:01.455 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 11:03:01.467 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 11:03:01.473 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 11:03:01.475 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 20.432ms
+2021-03-20 11:03:01.486 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:03:01.492 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 88.5726ms
+2021-03-20 11:12:58.963 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 11:12:58.969 -05:00 [INF] CORS policy execution successful.
+2021-03-20 11:12:58.971 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:12:58.973 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 11:12:58.981 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 11:12:59.025 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 11:12:59.036 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 11:12:59.042 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 62.7756ms
+2021-03-20 11:12:59.053 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:12:59.056 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 93.7944ms
+2021-03-20 11:15:05.730 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 11:15:05.749 -05:00 [INF] CORS policy execution successful.
+2021-03-20 11:15:05.752 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:15:05.757 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 11:15:05.776 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 11:15:05.789 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 11:15:05.801 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 11:15:05.820 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 44.5508ms
+2021-03-20 11:15:05.827 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:15:05.833 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 102.3396ms
+2021-03-20 11:15:18.382 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - -
+2021-03-20 11:15:18.384 -05:00 [INF] CORS policy execution successful.
+2021-03-20 11:15:18.389 -05:00 [INF] Executing endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:15:18.391 -05:00 [INF] Route matched with {action = "ListarRes", controller = "Pedido"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListarRes() on controller ApiVentas.ApiRest.Controllers.PedidoController (ApiVentas.ApiRest).
+2021-03-20 11:15:18.399 -05:00 [INF] Entity Framework Core 5.0.3 initialized 'VentasContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-03-20 11:15:18.408 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPedido], [p].[FechaPedido], [p].[IdCliente], [p].[Total], [c].[IdCliente], [c].[NombreCliente]
+FROM [Pedido] AS [p]
+INNER JOIN [Cliente] AS [c] ON [p].[IdCliente] = [c].[IdCliente]
+2021-03-20 11:15:18.432 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiVentas.ApiRest.Managers.DTO.PedidoListaDTO, ApiVentas.ApiRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-20 11:15:18.437 -05:00 [INF] Executed action ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest) in 38.2835ms
+2021-03-20 11:15:18.440 -05:00 [INF] Executed endpoint 'ApiVentas.ApiRest.Controllers.PedidoController.ListarRes (ApiVentas.ApiRest)'
+2021-03-20 11:15:18.443 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Pedido/ListarRes - - - 200 - application/json;+charset=utf-8 60.7595ms
